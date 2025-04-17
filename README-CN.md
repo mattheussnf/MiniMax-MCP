@@ -66,7 +66,7 @@
       "env": {
         "MINIMAX_API_KEY": "<在此插入你的API密钥>",
         "MINIMAX_MCP_BASE_PATH": "<本地输出目录路径，如/User/xxx/Desktop>",
-        "MINIMAX_API_HOST": "<写入API HOST URL, 国际URL https://api.minimaxi.chat, 国内URL ​https://api.minimax.chat>",
+        "MINIMAX_API_HOST": "https://api.minimax.chat",
         "MINIMAX_API_RESOURCE_MODE": "<可选配置，资源生成后的提供方式, [url|local], 默认为 url>"
       }
     }
