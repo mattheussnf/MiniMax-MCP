@@ -47,7 +47,7 @@
 |Region| Global  | Mainland  |
 |:--|:-----|:-----|
 |MINIMAX_API_KEY| go get from [MiniMax](https://www.minimax.io/platform/user-center/basic-information/interface-key) | go get from [MiniMax](https://platform.minimaxi.com/user-center/basic-information/interface-key) |
-|MINIMAX_API_HOST| ​https://api.minimax<font color="red">**i**</font>.chat | ​https://api.minimax.chat |
+|MINIMAX_API_HOST| ​https://api.minimax`i`.chat | ​https://api.minimax.chat |
 
 
 ### Claude Desktop
