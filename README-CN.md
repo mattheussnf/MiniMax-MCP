@@ -49,7 +49,7 @@
 |地区| 国际  | 国内  |
 |:--|:-----|:-----|
 |MINIMAX_API_KEY| 获取密钥 [MiniMax](https://www.minimax.io/platform/user-center/basic-information/interface-key) | 获取密钥 [MiniMax](https://platform.minimaxi.com/user-center/basic-information/interface-key) |
-|MINIMAX_API_HOST| ​https://api.minimax`i`.chat | ​https://api.minimax.chat |
+|MINIMAX_API_HOST| ​https://api.minimaxi.chat （请注意额外的 **"i"** 字母） | ​https://api.minimax.chat |
 
 
 ### Claude Desktop
