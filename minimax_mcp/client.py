@@ -70,9 +70,14 @@ class MinimaxAPIClient:
                             f"API Error: {base_resp.get('status_msg')}, please check your API key and API host."
                             f"Trace-Id: {response.headers.get('Trace-Id')}"
                         )
+                    case 2038:
+                        raise MinimaxRequestError(
+                            f"API Error: {base_resp.get('status_msg')}, should complete real-name verification on the open-platform(https://platform.minimaxi.com/user-center/basic-information)."
+                            f"Trace-Id: {response.headers.get('Trace-Id')}"
+                        )
                     case _:
                         raise MinimaxRequestError(
-                            f"API Error: {base_resp.get('status_msg')} "
+                            f"API Error: {base_resp.get('status_code')}-{base_resp.get('status_msg')} "
                             f"Trace-Id: {response.headers.get('Trace-Id')}"
                         )
                 

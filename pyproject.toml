@@ -1,6 +1,6 @@
 [project]
 name = "minimax-mcp"
-version = "0.0.9"
+version = "0.0.10"
 description = "Minimax MCP Server"
 authors = [
     { name = "Roy Wu", email = "zhengyu@minimax.chat" },
